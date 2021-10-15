@@ -1,0 +1,9 @@
+﻿@model ProductVM
+
+@{
+    ViewData["Title"] = "Adauga o carte";
+}
+
+@{ ViewBag.IsNew = true;}
+
+@await Html.PartialAsync(@"../Shared/Components/_Product.cshtml")
